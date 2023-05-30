@@ -1,0 +1,33 @@
+{
+  "name": "super-hero",
+  "version": "1.0.0",
+  "description": "super hero app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js",
+    "dev": "nodemon server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artemslt/super-hero.git"
+  },
+  "author": "Slatin Artem",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/artemslt/super-hero/issues"
+  },
+  "homepage": "https://github.com/artemslt/super-hero#readme",
+  "dependencies": {
+    "cloudinary": "^1.37.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.2.0",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
